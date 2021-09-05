@@ -13,8 +13,7 @@ A website created a resume portfolio to showcase my work. It will help me with m
     
 
 ## Website
-
-https://mital2021.github.io/Horiseon/
+https://mital2021.github.io/Resume-Portfolio/
 
 
 ## Contribution
