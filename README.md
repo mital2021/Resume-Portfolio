@@ -2,12 +2,12 @@
 
 ## Purpose
 
-A website created a resume portfolio to showcase my work. It will help me with my job search.
+A website created resume portfolio to showcase my work. It will help me with job search.
 
 
 
 ## Built with 
-    * Sementic HTML
+    * HTML
     * Advance CSS
     * Using flexbox
     
