@@ -6,6 +6,9 @@
 
 
 }
+*{
+  box-sizing:border-box;
+} 
 
 
   body {
@@ -179,12 +182,13 @@
   
 
 }
-.flex-bigbox span{
+.item5 span{
 
- margin: 0;
+ margin-bottom: auto;
  background-color: var(--gray-color); 
- text-align: left;
- 
+ text-align: center;
+ padding: 10px 5px 5px 10px;
+
 
    
 }
@@ -193,11 +197,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  flex-direction: row;
+ 
 }
 
-
-.flex-item1 {
+.flex-item{
 
   width: 49%;
   border-radius: 14px;
@@ -205,68 +208,53 @@
   background-color:var(--primary-color) ;
   font-size: 22px;
   font-weight: bold;
-  margin-bottom: auto;
+  margin-bottom: 15px;
   min-height: 250px;
+  background-size: cover;
+  background-position: center;
+  padding:20px 0;
+  height: 250px;
+  flex-direction: column;
   display: flex;
+  
+}
+.item1 {
   background-image: url('../images/digital-marketing-meeting.jpg');
-  background-size: cover;
-  background-position: right;
-  background-color: var(--gray-color);
-  flex-direction: column;
-
-  
 }
-.flex-item2 {
-
-  width: 49%;
-  border-radius: 14px;
-  border: 4px solid var(--primary-color);
-  background-color:var(--gray-color );
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  min-height: 250px;
-  display: flex;
-  flex-direction: column;
-  background-size: cover;
-  background-position: right;
-  
+.item2{
+background-image: url('../images/pngtree-black-and-gold-hexagonal-patterns-of-luxury-background-vector-image-picture-image_1238575.jpg');
 }
-.flex-item3 {
-
-  width: 49%;
-  border-radius: 14px;
-  border: 4px solid var(--primary-color);
-  background-color:var(--gray-color) ;
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  min-height: 250px;
-  display: flex;
-
-  flex-direction: column;
-  background-size: cover;
-  background-position: right;
-  
+.item3{
+background-image: url('../images/pngtree-pink-gold-glitter-background-picture-image_989686.jpg');
 }
-.flex-item4 {
-
-  width: 49%;
-  border-radius: 14px;
-  border: 4px solid var(--primary-color);
-  background-color:var(--gray-color) ;
-  font-size: 22px;
-  font-weight: bold;
-  margin-bottom: 15px;
-  min-height: 250px;
-  display: flex;
-  flex-direction: column;
-  background-size: cover;
-  background-position: right;
-  
+.item4{
+background-image: url('../images/53579b28cb9ae3e.jpg');
 }
+.item1 span {
+ 
+  background-color: gray;
+  text-align: center;
+  padding: 10px 5px 5px 10px;
+}
+.item2 span {
+ 
+  background-color: gray;
+  text-align: center;
+  padding: 10px 5px 5px 10px;
+}
+  .item3 span {
+ 
+    background-color: gray;
+    text-align: center;
+    padding: 10px 5px 5px 10px;
+  }
 
-
+  .item4 span {
+ 
+      background-color: gray;
+      text-align: center;
+      padding: 10px 5px 5px 10px;
+  }
 
  /*Work Ends here*/
 
@@ -274,18 +262,25 @@
 
 .contactinfo {
  
-  margin:0 auto;
+ 
   justify-content: space-evenly;
   display: flex;
   font-size: 22px;
   font-weight: bold;
-  border-bottom: 2px solid var(--primary-color);
-  margin-left: 15px;
+ 
+  padding-left: 50px;
+  padding-right: 50px;
 
   
 }
 
 
+.contactinfo span{
+margin-left: 50px;
+margin-right: 50px;
+border-bottom: 2px solid var(--primary-color);
+padding-bottom: 10px;
+}
 
 /*Contact Me Ends here*/
 
@@ -294,16 +289,47 @@
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 
-}
 
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+  }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+    
+  }
+  .container{
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+}
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-  
-}
+  .contactinfo{
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 
+}
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  
+
 }
+  
+
 
 
