@@ -15,6 +15,10 @@ A website created resume portfolio to showcase my work. It will help me with job
 ## Website
 https://mital2021.github.io/Resume-Portfolio/
 
+# Screenshot of my application
+
+![](./assets/image/portfolioimg.jpg)
+
 
 ## Contribution
 Made by Mital.G
