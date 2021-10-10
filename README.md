@@ -17,7 +17,7 @@ https://mital2021.github.io/Resume-Portfolio/
 
 # Screenshot of my application
 
-![](./assets/image/portfolioimg.jpg)
+![](./assets/images/portfolioimg.jpg)
 
 
 ## Contribution
