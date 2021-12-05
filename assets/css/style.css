@@ -158,11 +158,12 @@
  .containerBigbox{
   
   width: 100%;
+  height: auto;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-}
+ }
 
 .bigbox{
 
@@ -172,26 +173,22 @@
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 15px;
-  background-image: url('../images/recipegenerator.jpg');
   background-size: cover;
-  background-position: right;
+  background-position: center;
   padding:0px 30px 0px 30px;
-  min-height: 550px;
+ 
+ display: flex;
+ 
+ 
+}
+.item5 img{
+  
+  min-height: 590px;
   display: flex;
   width: 100%;
-  
-
+ 
 }
-.item5 span{
 
- margin-bottom: auto;
- background-color: var(--gray-color); 
- text-align: center;
- padding: 10px 5px 5px 10px;
-
-
-   
-}
 .containerItems{
   display: flex;
   flex-wrap: wrap;
@@ -219,13 +216,13 @@
   
 }
 .item1 {
-  background-image: url('../images/digital-marketing-meeting.jpg');
+  background-image: url('../images/recipegenerator.jpg');
 }
 .item2{
 background-image: url('../images/hero-bg.jpg');
 }
 .item3{
-background-image: url('../images/pngtree-pink-gold-glitter-background-picture-image_989686.jpg');
+background-image: url('../images/digital-marketing-meeting.jpg');
 }
 .item4{
 background-image: url('../images/53579b28cb9ae3e.jpg');
